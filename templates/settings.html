@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Settings</title>
+</head>
+<body>
+    <h2>Settings</h2>
+    <form method="POST" action="/update_rtmp_key">
+        <label for="rtmp_key">RTMP Key:</label>
+        <input type="text" id="rtmp_key" name="rtmp_key" value="{{ rtmp_key }}">
+        <button type="submit">Update</button>
+    </form>
+</body>
+</html>
